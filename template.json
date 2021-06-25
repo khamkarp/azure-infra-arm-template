@@ -50,9 +50,9 @@
     }
   },
   "variables": {
-    "virtualNetworkName": "ZUSSC-GRC-VNT-D1-ELMENGINEERING",
+    "virtualNetworkName": "My-VN",
     "addressPrefix": "10.234.80.0/20",
-    "subnet1Name": "ZUSSC-GRC-SUB-D1-CRE-ELMENGINEERING-DEVELOPMENT",
+    "subnet1Name": "My-Subnet1",
     "subnet1Prefix": "10.234.80.0/22",
     "subnet1Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets',variables('virtualNetworkName'),variables('subnet1Name'))]",
     "Linux": {
